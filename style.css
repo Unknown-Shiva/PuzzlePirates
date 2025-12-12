@@ -86,16 +86,18 @@ body::after {
     z-index: 1;
 }
 
+
+
 .side-panel {
     width: 320px;
-    background: rgba(5, 5, 10, 0.95);
+    background: rgba(6, 5, 10, 0.95);
     border-right: 1px solid #00ffff;
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
     position: relative;
     z-index: 20;
-    transition: left 0.3s ease;
+    transition: left 0.2s ease;
 }
 
 .main-panel {
@@ -237,7 +239,7 @@ body::after {
     display: flex;
     gap: 2rem;
     align-items: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0.01, 0, 0, 0.3);
     padding: 1rem;
     border-radius: 8px;
     flex-wrap: wrap;
